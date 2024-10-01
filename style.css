@@ -29,11 +29,9 @@ body {
 }
 
 .picture {
-    flex-grow: 1;
     background-image: url(media/abstract.jpg);
     background-size: cover;
-    width: 100%;
-    background-position: center center;
+    background-position: center;
 }
 
 .content {
@@ -59,7 +57,7 @@ h1 {
 }
 
 .icon-list li::before {
-    content: url(media/task_alt_24dp_75FB4C_FILL0_wght400_GRAD0_opsz24.svg);
+    content: url(media/list-icon.svg);
 }
 
 form {
@@ -94,10 +92,7 @@ button {
     font-weight: 700;
     font-size: 1rem;
     padding: 0.8rem 1rem;
-    border-width: initial;
     border-style: none;
-    border-color: initial;
-    border-image: initial;
     border-radius: 12px;
 }
 
@@ -109,7 +104,6 @@ button {
         max-width: 1000px;
         grid-template-columns: 1fr 1fr;
         min-height: auto;
-        flex-direction: row-reverse;
     }
     .picture {
         height: 100%;
